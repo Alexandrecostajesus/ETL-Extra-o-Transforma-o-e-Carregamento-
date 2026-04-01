@@ -4,4 +4,4 @@ A função carregar_dados recebe o DataFrame transformado e grava o resultado em
 
 O bloco if __name__ == "__main__": é o ponto de entrada do script quando ele é executado diretamente. Ele chama as três etapas do fluxo ETL: extração (extrair_dados()), transformação (transformar_dados(df_bruto)) e carga (carregar_dados(df_transformado)). Dessa forma, o script lê os dados de entrada, constrói as mensagens personalizadas e salva o resultado final em disco.
 
-Ra
+
